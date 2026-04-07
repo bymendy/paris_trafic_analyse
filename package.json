@@ -1,0 +1,9 @@
+{
+  "name": "paris-trafic-analyse",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd paris-trafic && npm install && npm run build",
+    "dev": "cd paris-trafic && npm install && npm run dev"
+  }
+}

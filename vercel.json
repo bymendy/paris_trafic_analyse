@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd paris-trafic && npm install && npm run build",
+  "outputDirectory": "paris-trafic/dist",
+  "installCommand": "cd paris-trafic && npm install",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "framework": null
+}
